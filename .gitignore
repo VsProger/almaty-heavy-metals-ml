@@ -1,0 +1,31 @@
+# Source data and derived modelling table — not redistributable (see README > Data)
+data/
+*.xls
+*.xlsx
+*.docx
+ml_ready_dataset.csv
+benchmark_results/sample_*.csv
+
+# Manuscripts and thesis drafts
+*.pdf
+диссертация*.md
+
+# Training artefacts
+catboost_info/
+*.h5
+*.keras
+
+# Large local explanation dumps
+lime_results/*.html
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

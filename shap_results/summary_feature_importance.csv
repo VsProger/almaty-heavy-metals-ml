@@ -1,0 +1,145 @@
+sample,model,feature,mean_abs_shap,rank
+A_no_climate,Ridge Regression,Cu,0.024726873904859153,1
+A_no_climate,Ridge Regression,Pb_lag2,0.01108438241634573,2
+A_no_climate,Ridge Regression,month_cos,0.009675046297588911,3
+A_no_climate,Ridge Regression,Pb_lag1,0.008150404092300946,4
+A_no_climate,Ridge Regression,Cd,0.007902352054324532,5
+A_no_climate,Ridge Regression,post,0.006310323930007359,6
+A_no_climate,Ridge Regression,month_sin,0.004794580505078274,7
+A_no_climate,Ridge Regression,doy_cos,0.0033368593222005342,8
+A_no_climate,Ridge Regression,doy_sin,0.0032134313601386993,9
+A_no_climate,Ridge Regression,As,0.0025490169028234097,10
+A_no_climate,Ridge Regression,Cr,0.0018013170095703464,11
+A_no_climate,Ridge Regression,Pb_roll3_mean,0.0007528984712510497,12
+A_no_climate,KNN Regression,post,0.01752440320239581,1
+A_no_climate,KNN Regression,Cu,0.01214738700463311,2
+A_no_climate,KNN Regression,Pb_lag2,0.008647840570917466,3
+A_no_climate,KNN Regression,Pb_roll3_mean,0.006254445961436514,4
+A_no_climate,KNN Regression,month_cos,0.00589973349870434,5
+A_no_climate,KNN Regression,Pb_lag1,0.005625424327713414,6
+A_no_climate,KNN Regression,Cd,0.005038849891219126,7
+A_no_climate,KNN Regression,doy_cos,0.004115262397704564,8
+A_no_climate,KNN Regression,month_sin,0.003580456550415927,9
+A_no_climate,KNN Regression,doy_sin,0.003313380224955703,10
+A_no_climate,KNN Regression,As,0.0011883197398073438,11
+A_no_climate,KNN Regression,Cr,0.0010652055075741225,12
+A_no_climate,Extra Trees Regression,Pb_lag1,0.018722121829456935,1
+A_no_climate,Extra Trees Regression,Cu,0.0185510508361224,2
+A_no_climate,Extra Trees Regression,Cd,0.006880890257629419,3
+A_no_climate,Extra Trees Regression,Pb_roll3_mean,0.006428463195647656,4
+A_no_climate,Extra Trees Regression,post,0.006062593295413311,5
+A_no_climate,Extra Trees Regression,Pb_lag2,0.0038301595732514824,6
+A_no_climate,Extra Trees Regression,As,0.0025683517171244184,7
+A_no_climate,Extra Trees Regression,month_cos,0.0020481139741277874,8
+A_no_climate,Extra Trees Regression,doy_cos,0.0011923032040180245,9
+A_no_climate,Extra Trees Regression,doy_sin,0.0009586377215077845,10
+A_no_climate,Extra Trees Regression,month_sin,0.0006975397019349091,11
+A_no_climate,Extra Trees Regression,Cr,0.0005945479318629598,12
+A_no_climate,CatBoost Regression,Pb_lag1,0.02124219820249951,1
+A_no_climate,CatBoost Regression,Cu,0.013845050321343732,2
+A_no_climate,CatBoost Regression,Cd,0.013121294714879274,3
+A_no_climate,CatBoost Regression,Pb_lag2,0.0065385336172382605,4
+A_no_climate,CatBoost Regression,As,0.00634298424862824,5
+A_no_climate,CatBoost Regression,post,0.00513207847842646,6
+A_no_climate,CatBoost Regression,Pb_roll3_mean,0.003601267339203885,7
+A_no_climate,CatBoost Regression,doy_sin,0.002662572891018891,8
+A_no_climate,CatBoost Regression,Cr,0.00197509836067822,9
+A_no_climate,CatBoost Regression,doy_cos,0.0017727616882414054,10
+A_no_climate,CatBoost Regression,month_cos,0.0012842858395843307,11
+A_no_climate,CatBoost Regression,month_sin,0.0007759441190987988,12
+B_with_climate,Ridge Regression,Cu,0.011312404271883762,1
+B_with_climate,Ridge Regression,temp_std,0.007575332721916882,2
+B_with_climate,Ridge Regression,As,0.004200125603535992,3
+B_with_climate,Ridge Regression,temp_min,0.004088959083648893,4
+B_with_climate,Ridge Regression,Pb_roll3_mean,0.0031097669798318774,5
+B_with_climate,Ridge Regression,doy_sin,0.0028612228234601886,6
+B_with_climate,Ridge Regression,Pb_lag2,0.002724786593972969,7
+B_with_climate,Ridge Regression,Cd,0.002593052237359839,8
+B_with_climate,Ridge Regression,doy_cos,0.0024300630448980767,9
+B_with_climate,Ridge Regression,wind_dir_mean,0.002315868882282972,10
+B_with_climate,Ridge Regression,wind_speed_max,0.0020675334878062657,11
+B_with_climate,Ridge Regression,Pb_lag1,0.0016748518063534304,12
+B_with_climate,Ridge Regression,month_sin,0.0016198457918095584,13
+B_with_climate,Ridge Regression,wind_speed_mean,0.001458652965599796,14
+B_with_climate,Ridge Regression,haze_share,0.0013783547931569917,15
+B_with_climate,Ridge Regression,rainy_share,0.0010569887875579306,16
+B_with_climate,Ridge Regression,dust_share,0.0010063656585351957,17
+B_with_climate,Ridge Regression,Cr,0.0008211037122653112,18
+B_with_climate,Ridge Regression,temp_max,0.0006477166025577448,19
+B_with_climate,Ridge Regression,month_cos,0.0006463355343752128,20
+B_with_climate,Ridge Regression,post,0.000561015568704328,21
+B_with_climate,Ridge Regression,snowy_share,0.0005110702049569201,22
+B_with_climate,Ridge Regression,temp_mean,0.0005005870617691339,23
+B_with_climate,Ridge Regression,foggy_share,0.00026974875331715566,24
+B_with_climate,KNN Regression,post,0.002678584694300111,1
+B_with_climate,KNN Regression,Cr,0.002663760760751325,2
+B_with_climate,KNN Regression,Pb_roll3_mean,0.002635370449023809,3
+B_with_climate,KNN Regression,temp_std,0.002451267216576504,4
+B_with_climate,KNN Regression,wind_dir_mean,0.0019570472440382522,5
+B_with_climate,KNN Regression,As,0.0017535988393329036,6
+B_with_climate,KNN Regression,month_sin,0.0017367307811298838,7
+B_with_climate,KNN Regression,doy_cos,0.001517165216438377,8
+B_with_climate,KNN Regression,month_cos,0.001367231662789455,9
+B_with_climate,KNN Regression,doy_sin,0.001344600658704887,10
+B_with_climate,KNN Regression,Cu,0.0011072296574545788,11
+B_with_climate,KNN Regression,temp_mean,0.0009989293013243851,12
+B_with_climate,KNN Regression,temp_min,0.0008069123254523866,13
+B_with_climate,KNN Regression,wind_speed_max,0.0007454496347295003,14
+B_with_climate,KNN Regression,temp_max,0.0006290139180360535,15
+B_with_climate,KNN Regression,Pb_lag2,0.0006057987950968453,16
+B_with_climate,KNN Regression,foggy_share,0.0006038830532775232,17
+B_with_climate,KNN Regression,dust_share,0.0005996651297357844,18
+B_with_climate,KNN Regression,wind_speed_mean,0.0005785129801059997,19
+B_with_climate,KNN Regression,snowy_share,0.0005765919479739697,20
+B_with_climate,KNN Regression,Pb_lag1,0.0005599017095771601,21
+B_with_climate,KNN Regression,Cd,0.00041502938708457297,22
+B_with_climate,KNN Regression,rainy_share,0.000301539667538408,23
+B_with_climate,KNN Regression,haze_share,0.0002229258123181651,24
+B_with_climate,Extra Trees Regression,Cu,0.014111733206463778,1
+B_with_climate,Extra Trees Regression,Pb_lag1,0.006581044629824142,2
+B_with_climate,Extra Trees Regression,Cd,0.003948887759887092,3
+B_with_climate,Extra Trees Regression,Pb_roll3_mean,0.0023904942567641208,4
+B_with_climate,Extra Trees Regression,month_sin,0.0012620733371900312,5
+B_with_climate,Extra Trees Regression,As,0.0011808884425106956,6
+B_with_climate,Extra Trees Regression,wind_speed_max,0.0011056713058071042,7
+B_with_climate,Extra Trees Regression,temp_std,0.0009313106085599724,8
+B_with_climate,Extra Trees Regression,doy_sin,0.0008489587662116424,9
+B_with_climate,Extra Trees Regression,Cr,0.00078545048587191,10
+B_with_climate,Extra Trees Regression,temp_min,0.00046132640616717647,11
+B_with_climate,Extra Trees Regression,post,0.00045808693543849605,12
+B_with_climate,Extra Trees Regression,Pb_lag2,0.00039921482934775334,13
+B_with_climate,Extra Trees Regression,doy_cos,0.0003856344777015083,14
+B_with_climate,Extra Trees Regression,temp_mean,0.00034088818715877754,15
+B_with_climate,Extra Trees Regression,haze_share,0.00031209431542409923,16
+B_with_climate,Extra Trees Regression,month_cos,0.0002055662907824699,17
+B_with_climate,Extra Trees Regression,temp_max,0.0002051350554531833,18
+B_with_climate,Extra Trees Regression,wind_speed_mean,0.00016602158105753092,19
+B_with_climate,Extra Trees Regression,wind_dir_mean,0.00015389173136295408,20
+B_with_climate,Extra Trees Regression,snowy_share,8.649540235631796e-05,21
+B_with_climate,Extra Trees Regression,rainy_share,2.656076790668934e-05,22
+B_with_climate,Extra Trees Regression,foggy_share,0.0,23
+B_with_climate,Extra Trees Regression,dust_share,0.0,24
+B_with_climate,CatBoost Regression,Cu,0.010470966973003903,1
+B_with_climate,CatBoost Regression,Pb_lag1,0.006246043746582662,2
+B_with_climate,CatBoost Regression,Cd,0.004415878632763278,3
+B_with_climate,CatBoost Regression,doy_sin,0.0027159362594804935,4
+B_with_climate,CatBoost Regression,wind_speed_max,0.0026875717336232166,5
+B_with_climate,CatBoost Regression,temp_std,0.00259613837197148,6
+B_with_climate,CatBoost Regression,Cr,0.0019239939641345653,7
+B_with_climate,CatBoost Regression,wind_dir_mean,0.0019018133615387235,8
+B_with_climate,CatBoost Regression,As,0.0018552429728623807,9
+B_with_climate,CatBoost Regression,Pb_roll3_mean,0.0018529004855811222,10
+B_with_climate,CatBoost Regression,temp_min,0.0011184612547347709,11
+B_with_climate,CatBoost Regression,Pb_lag2,0.0008280806608609972,12
+B_with_climate,CatBoost Regression,temp_mean,0.0007857313913157233,13
+B_with_climate,CatBoost Regression,month_sin,0.0006967208404973174,14
+B_with_climate,CatBoost Regression,wind_speed_mean,0.0006877167061197191,15
+B_with_climate,CatBoost Regression,doy_cos,0.0006433246448909632,16
+B_with_climate,CatBoost Regression,haze_share,0.0006411809797858011,17
+B_with_climate,CatBoost Regression,temp_max,0.0004076134063516144,18
+B_with_climate,CatBoost Regression,foggy_share,0.00030174526003187783,19
+B_with_climate,CatBoost Regression,rainy_share,0.00026763636433032516,20
+B_with_climate,CatBoost Regression,month_cos,0.00022681559479515906,21
+B_with_climate,CatBoost Regression,post,0.0002248199427099997,22
+B_with_climate,CatBoost Regression,snowy_share,0.00016474257352836215,23
+B_with_climate,CatBoost Regression,dust_share,0.0,24

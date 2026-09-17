@@ -1,0 +1,168 @@
+{
+  "chow_test": {
+    "most_significant_break_year": 2011,
+    "candidate_results": [
+      {
+        "F_statistic": 7.776294661551076,
+        "p_value": 3.9444307970759596e-05,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 101,
+        "n_right": 820,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 3.7333670927741642,
+        "SSE_right": 3.3720280038598833,
+        "split_year": 2008
+      },
+      {
+        "F_statistic": 4.327433715827036,
+        "p_value": 0.004862238647068917,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 153,
+        "n_right": 768,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 4.0392324032448705,
+        "SSE_right": 3.1453846342249614,
+        "split_year": 2009
+      },
+      {
+        "F_statistic": 9.403422887865865,
+        "p_value": 4.002005141168219e-06,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 221,
+        "n_right": 700,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 4.155545878733038,
+        "SSE_right": 2.9130767527202615,
+        "split_year": 2010
+      },
+      {
+        "F_statistic": 23.361052647643387,
+        "p_value": 1.4210854715202004e-14,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 293,
+        "n_right": 628,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 4.246050179932563,
+        "SSE_right": 2.5221068000499436,
+        "split_year": 2011
+      },
+      {
+        "F_statistic": 13.133957795231765,
+        "p_value": 2.111523822456718e-08,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 365,
+        "n_right": 556,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 4.744851056370662,
+        "SSE_right": 2.240882770453344,
+        "split_year": 2012
+      },
+      {
+        "F_statistic": 10.54160469699618,
+        "p_value": 8.068757951784633e-07,
+        "df_num": 3,
+        "df_denom": 915,
+        "n_total": 921,
+        "n_left": 436,
+        "n_right": 485,
+        "SSE_pooled": 7.286554591578856,
+        "SSE_left": 5.8692065494580845,
+        "SSE_right": 1.1739190395292853,
+        "split_year": 2013
+      }
+    ]
+  },
+  "period_comparison": [
+    {
+      "Period": "Full 2006-2020",
+      "n_total": 921,
+      "n_train": 644,
+      "n_test": 277,
+      "ExtraTrees_R2": 0.7306966431499379,
+      "ExtraTrees_RMSE": 0.059708328420269394,
+      "ExtraTrees_MAE": 0.03093921640796214,
+      "Stacking_R2": 0.7132254358075091,
+      "Stacking_RMSE": 0.061614700775440526,
+      "Stacking_MAE": 0.032683093490677585
+    },
+    {
+      "Period": "From 2009 onwards",
+      "n_total": 768,
+      "n_train": 537,
+      "n_test": 231,
+      "ExtraTrees_R2": 0.6438625422900881,
+      "ExtraTrees_RMSE": 0.04548372215534681,
+      "ExtraTrees_MAE": 0.024186748440834467,
+      "Stacking_R2": 0.6454195518517454,
+      "Stacking_RMSE": 0.04538418732408721,
+      "Stacking_MAE": 0.02550438741462076
+    },
+    {
+      "Period": "From 2010 onwards (stable period)",
+      "n_total": 700,
+      "n_train": 490,
+      "n_test": 210,
+      "ExtraTrees_R2": 0.7061605172768425,
+      "ExtraTrees_RMSE": 0.04110935598731021,
+      "ExtraTrees_MAE": 0.02497834621497905,
+      "Stacking_R2": 0.6744182387907254,
+      "Stacking_RMSE": 0.043272863214750705,
+      "Stacking_MAE": 0.02697663745504612
+    },
+    {
+      "Period": "From 2011 onwards",
+      "n_total": 628,
+      "n_train": 439,
+      "n_test": 189,
+      "ExtraTrees_R2": 0.5880445415124411,
+      "ExtraTrees_RMSE": 0.054274458865794725,
+      "ExtraTrees_MAE": 0.027009386386191887,
+      "Stacking_R2": 0.6002874609284548,
+      "Stacking_RMSE": 0.053461883774960105,
+      "Stacking_MAE": 0.027217262282451086
+    },
+    {
+      "Period": "From 2012 onwards",
+      "n_total": 556,
+      "n_train": 389,
+      "n_test": 167,
+      "ExtraTrees_R2": 0.3245150179229904,
+      "ExtraTrees_RMSE": 0.046148841234420965,
+      "ExtraTrees_MAE": 0.02607879304164559,
+      "Stacking_R2": 0.44603611344255567,
+      "Stacking_RMSE": 0.041792050352199996,
+      "Stacking_MAE": 0.024974544747121862
+    },
+    {
+      "Period": "2010-2018 (inner stable)",
+      "n_total": 610,
+      "n_train": 427,
+      "n_test": 183,
+      "ExtraTrees_R2": 0.6708238362040408,
+      "ExtraTrees_RMSE": 0.052585043379962,
+      "ExtraTrees_MAE": 0.029440603926567454,
+      "Stacking_R2": 0.6334411522081982,
+      "Stacking_RMSE": 0.05549066124600027,
+      "Stacking_MAE": 0.031304816026912256
+    }
+  ],
+  "baseline": {
+    "period": "Full 2006-2020",
+    "ExtraTrees_R2": 0.7306966431499379
+  },
+  "best": {
+    "period": "Full 2006-2020",
+    "ExtraTrees_R2": 0.7306966431499379,
+    "improvement": 0.0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "model": "StackingRegressor",
+  "base_estimators": {
+    "extra_trees": {
+      "n_estimators": 100,
+      "max_depth": 20,
+      "min_samples_leaf": 2
+    },
+    "catboost": {
+      "iterations": 200,
+      "learning_rate": 0.1,
+      "depth": 4
+    },
+    "grad_boost": {
+      "n_estimators": 100,
+      "learning_rate": 0.05,
+      "max_depth": 3
+    },
+    "ridge": {
+      "alpha": 1.0
+    }
+  },
+  "final_estimator": "Ridge(alpha=1.0)",
+  "cv": 5,
+  "features": [
+    "post",
+    "month_sin",
+    "month_cos",
+    "doy_sin",
+    "doy_cos",
+    "Pb_lag1",
+    "Pb_lag2",
+    "Pb_roll3_mean",
+    "Cd",
+    "As",
+    "Cr",
+    "Cu",
+    "Cu_lag1"
+  ],
+  "random_state": 42
+}

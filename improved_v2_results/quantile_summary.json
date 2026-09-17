@@ -1,0 +1,65 @@
+{
+  "median_metrics": {
+    "R2": 0.6720991117835047,
+    "RMSE": 0.06588481427744218,
+    "MAE": 0.032099827736247595
+  },
+  "calibration": [
+    {
+      "Interval": "90% CI",
+      "Expected_coverage": 0.8999999999999999,
+      "Empirical_coverage": 0.8014440433212996,
+      "Calibration_error": -0.09855595667870032,
+      "Mean_width_µg/m³": 0.10568120682015592
+    },
+    {
+      "Interval": "80% CI",
+      "Expected_coverage": 0.8,
+      "Empirical_coverage": 0.6823104693140795,
+      "Calibration_error": -0.11768953068592058,
+      "Mean_width_µg/m³": 0.07384106986532289
+    },
+    {
+      "Interval": "50% CI (IQR)",
+      "Expected_coverage": 0.5,
+      "Empirical_coverage": 0.4187725631768953,
+      "Calibration_error": -0.08122743682310468,
+      "Mean_width_µg/m³": 0.037975930534354836
+    }
+  ],
+  "practical": {
+    "n_test": 277,
+    "actually_exceed_MPC": 10,
+    "median_predicts_exceed": 9,
+    "Q10>MPC (confident exceedance)": 0,
+    "Q90<MPC (confident safe)": 264,
+    "uncertain": 13,
+    "confident_safe_actually_safe": 262,
+    "confident_safe_actually_exceed": 2
+  },
+  "features": [
+    "post",
+    "month_sin",
+    "month_cos",
+    "doy_sin",
+    "doy_cos",
+    "Pb_lag1",
+    "Pb_lag2",
+    "Pb_roll3_mean",
+    "Cd",
+    "As",
+    "Cr",
+    "Cu",
+    "Cu_lag1"
+  ],
+  "quantiles": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "random_state": 42
+}
